@@ -2,7 +2,7 @@ from game_data import data
 import random
 
 def fetch_profile():
-    random_number = random.randint(0, 49)
+    random_number = random.randint(0, 47)
     name = data[random_number]['name']
     follower_count = data[random_number]['follower_count']
     description = data[random_number]['description']
