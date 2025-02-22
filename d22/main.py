@@ -41,6 +41,8 @@ while game_is_on:
         scoreboard.l_point()
     
     if ball.xcor() < -380:
+        r_paddle.reset_position(350)
+        l_paddle.reset_position(-350)
         ball.reset_position()
         scoreboard.r_point()
 
